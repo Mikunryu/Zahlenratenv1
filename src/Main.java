@@ -34,9 +34,10 @@ public class Main {
                 }
             }
                 System.out.println("Willst du noch eine Runde spielen? (J/N)");
-                String erneutSpielen = scanner.nextLine();
+                String erneutSpielen = scanner.next();
                 if (erneutSpielen.equals("J")) {
                     nochmalSpielen = true;
+                    Versuche = 0;
                 }
 
 
